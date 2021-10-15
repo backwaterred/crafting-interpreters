@@ -1,0 +1,17 @@
+var b = true;
+
+if (b) {
+  // True
+  b = b and b;
+} else {
+  // False
+  b = b or b;
+}
+
+if (b) {
+  // True
+  print "true";
+} else {
+  // False
+  print "false";
+}

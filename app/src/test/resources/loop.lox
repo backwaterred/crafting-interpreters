@@ -1,0 +1,15 @@
+var b = true;
+
+while (b) {
+    print "while-loop";
+
+  for (var n=0; n != 0; ) {
+    print "for-loop";
+  }
+
+  // Comments are fun!
+  b = false;
+
+}
+
+print "done!";
